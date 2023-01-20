@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+:root{
+    --clr-Pale-blue: #e0e8ff;
+    --clr-bright-blue: #3829e0;
+    --clr-Very-pale-blue: #f5f7ff;
+    --clr-Desaturated-blue: #7380a6;
+    --clr-Dark-blue: #1f2f56;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--clr-Pale-blue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    width: 360px;
+    background-color: var(--clr-Very-pale-blue);
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.10);
+    padding-bottom: 1rem;
+
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 1rem auto;
+}
+
+.discription{
+    width: 75%;
+    margin:0.5rem auto;
+    line-height: 1.5;
+    color:var(--clr-Desaturated-blue);
+}
+.details-container{
+    width: 98%;
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin: 1rem auto;
+    background-color:rgb(220, 230, 250, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plan{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rate{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color:var(--clr-Desaturated-blue) ;
+}
+
+.change-link{
+    color: var(--clr-bright-blue);
+}
+
+.change-link:hover{
+    opacity: 0.75;
+}
+.pay{
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    background-color: var(--clr-bright-blue);
+    border: 2px solid var(--clr-bright-blue);
+    color: var(--clr-Very-pale-blue);
+    border-radius: 10px;
+}
+
+.pay:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.order-cancel{
+    margin: 1rem;
+    color: var(--clr-Desaturated-blue);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.order-cancel:hover{
+    color: var(--clr-Dark-blue);
+}
